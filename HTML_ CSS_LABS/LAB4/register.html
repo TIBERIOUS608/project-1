@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="#" method="post">
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend>Year Group</legend>
+
+            <input type="radio" id="year1" name="year" value="Year 1">
+            <label for="year1">Year 1</label>
+
+            <input type="radio" id="year2" name="year" value="Year 2">
+            <label for="year2">Year 2</label>
+
+            <input type="radio" id="year3" name="year" value="Year 3">
+            <label for="year3">Year 3</label>
+
+            <input type="radio" id="year4" name="year" value="Year 4">
+            <label for="year4">Year 4</label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend>Major</legend>
+
+            <label for="major">Select your major:</label>
+
+            <select id="major" name="major">
+
+                <option value="bbit">
+                    Business Information Technology
+                </option>
+
+                <option value="cs">
+                    Computer Science
+                </option>
+
+                <option value="it">
+                    Information Technology
+                </option>
+
+                <option value="data">
+                    Data Science
+                </option>
+
+            </select>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend>Interests</legend>
+
+            <input type="checkbox" id="web" name="interest" value="Web Development">
+            <label for="web">Web Development</label>
+
+            <br>
+
+            <input type="checkbox" id="database" name="interest" value="Database">
+            <label for="database">Database</label>
+
+            <br>
+
+            <input type="checkbox" id="programming" name="interest" value="Programming">
+            <label for="programming">Programming</label>
+
+        </fieldset>
+
+        <br>
+
+        <label for="comments">Additional Comments:</label>
+
+        <br>
+
+        <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+
+        <button type="reset">Clear</button>
+
+    </form>
+
+</body>
+</html>

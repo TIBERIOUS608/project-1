@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    min-height: 400px;
+    padding: 30px;
+    text-align: center;
+    background-image: linear-gradient(
+        135deg,
+        #1F3864,
+        #2E75B6,
+        #8E44AD
+    );
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: hsl(45, 100%, 55%);
+    color: #222222;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: hsl(45, 100%, 70%);
+}

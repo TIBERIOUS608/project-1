@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: #DCE6F1;
+}
+
+.hero h1 {
+    color: #1F3864;
+    font-size: 36px;
+}
+
+.hero p {
+    color: #333333;
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1F3864;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: #2E75B6;
+}

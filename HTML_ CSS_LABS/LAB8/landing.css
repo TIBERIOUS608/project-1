@@ -1,0 +1,28 @@
+
+/* Style the main heading using Poppins */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Style the subheading using Lato */
+.subheading {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Style the call-to-action link */
+.cta {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}

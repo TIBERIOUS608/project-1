@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #1F3864;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.two-columns {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+}
+
+.box {
+    background-color: #DCE6F1;
+    border: 2px solid #2E75B6;
+    padding: 25px 10px;
+    text-align: center;
+}

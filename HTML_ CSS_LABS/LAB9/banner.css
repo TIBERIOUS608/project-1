@@ -1,0 +1,37 @@
+
+/* Step 1: Style the banner with a gradient */
+.banner {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Step 2: Create a transparent dark overlay box */
+.overlay-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+/* Step 3: Style the text using HSL */
+.overlay-box p {
+    color: hsl(40, 100%, 90%);
+    transition: color 0.2s;
+}
+
+/* Step 4: Change the text color when hovering */
+.overlay-box:hover p {
+    color: hsl(40, 100%, 70%);
+}
+
+/* Step 5: Style the pattern section */
+.pattern-section {
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+    background-size: 60px 60px;
+    background-repeat: repeat;
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}

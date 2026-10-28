@@ -1,0 +1,34 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #1F3864;
+    padding: 15px;
+}
+
+.navigation a:link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navigation a:visited {
+    color: #D6C5F0;
+}
+
+.navigation a:hover {
+    background-color: #2E75B6;
+    color: white;
+    text-decoration: underline;
+}
+
+.navigation a:active {
+    background-color: #003366;
+    color: yellow;
+}

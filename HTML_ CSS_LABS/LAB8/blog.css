@@ -1,0 +1,34 @@
+/* Step 3: Style the main heading */
+h1 {
+	font-family: 'Poppins'. Arial,Sans-serif;
+	font-weight: 700;
+	font-size: 2.2rem;
+	line-height;1.2;
+}
+
+/* Step 4: Style the byline */
+.byline {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #666666;
+    margin-bottom: 16px;
+}
+
+/* Step 5: Style the body paragraph */
+p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Step 6: Style the Continue Reading link */
+.read-more {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1a73e8;
+    letter-spacing: 1px;
+}
+
+	

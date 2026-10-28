@@ -1,0 +1,14 @@
+
+/* Style the main heading */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Style the article paragraphs */
+p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}

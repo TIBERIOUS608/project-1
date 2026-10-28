@@ -1,0 +1,12 @@
+ /* Prediction: lightblue will win because the ID selector has the highest specificity. */
+#box {
+    background-color: lightblue;
+}
+
+.panel {
+    background-color: lightgreen;
+}
+
+div {
+    background-color: lightgray;
+}

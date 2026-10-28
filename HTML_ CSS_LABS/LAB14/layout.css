@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1F3864;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 15px 20px;
+    background-color: #DCE6F1;
+}
+
+nav a {
+    color: #1F3864;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+footer {
+    background-color: #1F3864;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}

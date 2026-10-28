@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #F8F9FA;
+}
+
+.box {
+    width: 300px;
+    background-color: #DCE6F1;
+    margin-bottom: 20px;
+}
+
+.box-padding {
+    padding: 30px;
+}
+
+.box-border {
+    padding: 30px;
+    border: 5px solid #2E75B6;
+}
+
+.box-margin {
+    padding: 30px;
+    border: 5px solid #2E75B6;
+    margin-bottom: 40px;
+}
+
+.centered-card {
+    width: 400px;
+    padding: 20px;
+    background-color: #1F3864;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+}

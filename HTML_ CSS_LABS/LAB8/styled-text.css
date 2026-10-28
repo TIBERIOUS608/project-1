@@ -1,0 +1,21 @@
+body {
+	font-family; Arial, Helvetica,Sans-serif;
+}
+
+h1 {
+		font-size:36px;
+		font-weight:bold;
+		text-align:centre;
+	}
+
+h2 {
+		font-size: 28px;
+		text-transform:uppercase;
+		
+	}
+p {
+		font-size:18px;
+		line-height: 16px;
+		text-align: justify;
+	}	
+			

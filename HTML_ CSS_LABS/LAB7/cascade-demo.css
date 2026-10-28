@@ -1,0 +1,20 @@
+/* Lowest specificity: element selector (0,0,0,1) */
+p {
+    color:black;
+}
+
+/* Higher specificity: class selector (0,0,1,0) */
+.highlight {
+     color:orange;
+	 }
+
+/* Highest specificity here: ID selector (0,1,0,0) */
+/* Temporarily disabling the ID rule to test class vs element */
+/*
+#announcement {
+    color: green;
+}
+*/ 
+.highlight {
+    color: purple;
+}
